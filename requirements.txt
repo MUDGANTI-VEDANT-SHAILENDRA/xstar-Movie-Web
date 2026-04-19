@@ -8,3 +8,12 @@ psycopg2-binary==2.9.9
 pydantic==2.5.2
 cryptography==41.0.7
 PyJWT==2.8.0
+# Web Framework
+Flask==2.3.3
+gunicorn==21.2.0
+
+# Database
+mysql-connector-python==8.2.0
+# OR use: PyMySQL==1.1.0
+
+# Add any other packages your app.py imports
