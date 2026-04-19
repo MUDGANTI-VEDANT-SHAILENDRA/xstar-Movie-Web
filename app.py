@@ -986,4 +986,5 @@ if __name__ == '__main__':
         print(f"   • {username} / {info['password']} ({info['role']})")
     print("\n🌐 Access at: http://localhost:5000")
     print("=" * 50)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+   port = int(os.environ.get("PORT", 5000))  # Convert to integer
+app.run(host="0.0.0.0", port=port)
